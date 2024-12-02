@@ -18,5 +18,5 @@ jobs:
         with:
           go-version: "1.23.0"
 
-      - name: Print Go version
+      - name: get_api_key auth_test
         run: go test ./...
